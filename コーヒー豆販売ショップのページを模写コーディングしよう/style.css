@@ -44,6 +44,7 @@ header {
   position: absolute;
   top: 0;
   right: 0;
+  z-index: 9;
 }
 #main-message {
   position: absolute;
@@ -92,7 +93,7 @@ h3 {
   width: 50%;
   margin: 20px;
 }
-#concept-photo {
+.concept-photo {
   width: 80%;
 }
 .concept-flex > div {
@@ -163,4 +164,43 @@ h3 {
 .product-explain > p {
   font-size: 14px;
   margin: 0;
+}
+/* 会社概要 */
+#company {
+  margin: 80px auto 80px auto;
+}
+#company-table {
+  width: 100%;
+}
+.tableheader {
+  text-align: left;
+  padding: 20px;
+  border-bottom: #04414a;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  width: 100px;
+}
+.tableheader-first {
+  text-align: left;
+  padding: 20px;
+  border-top-color: #04414a;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.cell-first {
+  padding: 30px;
+  border-top-color: #ececec;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-color: #ececec;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.cell {
+  padding: 30px;
+  border-bottom-color: #ececec;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
 }
